@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/aadithyaa/Projects/Blackjack/Card.h
+
+/Users/aadithyaa/Projects/Blackjack/Deck.cpp
+Deck.h
+/Users/aadithyaa/Projects/Blackjack/Deck.h
+
+/Users/aadithyaa/Projects/Blackjack/Deck.h
+vector
+-
+Card.h
+/Users/aadithyaa/Projects/Blackjack/Card.h
+

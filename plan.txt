@@ -1,0 +1,42 @@
+Blackjack C++ Implementation
+
+Classes we might want to make
+
+1. Deck class
+* encapsulates a deck of 52 Card Objects
+* deck.shuffle()
+
+Blackjack procedures & subroutines
+
+# BETTING
+1. Everyone makes bets ($2-$500)
+
+
+# THE SETUP
+2. Deck is shuffled
+3. Dealer deals one card face up to all players,
+ and then one card face up to themselves
+4. Dealer deals another round of cards to everyone,
+**this time giving himself one card face down**.
+
+
+# THE PLAYERS PLAY
+5. Each player is asked to "stand" or "hit"
+6. If >21, bust, if <=21 player can stand or hit
+
+# THE DEALERS PLAY
+7. After all players served, dealer plays automatically
+8. if <17, must hit. >=17 must stand
+
+# SETTLEMENT
+1. Dealer pays everyone who beat him
+2. Dealer collects from everyone he beat
+
+REPEATS (if I want to)
+
+
+BONUS FEATURES TO ADD LATER
+* Splitting pairs
+* Doubling down
+* Doing more than one round
+
