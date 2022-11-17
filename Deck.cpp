@@ -18,7 +18,7 @@ void Deck::shuffle_cards() {
   std::shuffle(cards.begin(), cards.end(), std::mt19937(std::random_device()()));
 }
 std::unique_ptr<Card> Deck::deal_card() {
-  std::unique_ptr<Card> ptr = std::move(cards.back());
-  cards.pop_back();
+  auto ptr = std::move(cards.back());
+  cards.pop_back(); // My guess is that this implicitly deletes it
   return ptr;
 }

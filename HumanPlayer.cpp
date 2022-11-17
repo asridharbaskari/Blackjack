@@ -3,3 +3,7 @@
 //
 
 #include "HumanPlayer.h"
+
+void HumanPlayer::take_turn() {
+
+}

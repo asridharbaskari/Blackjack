@@ -3,6 +3,8 @@
 //
 
 #include "Card.h"
+
+
 Card::Card(Card::Rank rank, Card::Suit suit) {
   this->rank = rank;
   this->suit = suit;
@@ -46,4 +48,8 @@ int Card::get_value()
       return 10;
   }
   return static_cast<int>(this->rank) + 1;
+}
+Card::Card(Card const &card) {
+  this->rank = card.rank;
+  this->suit = card.suit;
 }

@@ -33,6 +33,7 @@ class Card
     KING
   };
   Card(Card::Rank rank, Card::Suit suit);
+  Card(Card const &card);
   std::string get_rank();
   std::string get_suit();
   int get_value();

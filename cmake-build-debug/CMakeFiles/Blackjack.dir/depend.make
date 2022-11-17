@@ -20,10 +20,14 @@ CMakeFiles/Blackjack.dir/Game.cpp.o: \
  ../Deck.h \
  ../Game.cpp \
  ../Game.h \
+ ../HumanPlayer.h \
  ../Player.h
 CMakeFiles/Blackjack.dir/HumanPlayer.cpp.o: \
+ ../Card.h \
+ ../Deck.h \
  ../HumanPlayer.cpp \
- ../HumanPlayer.h
+ ../HumanPlayer.h \
+ ../Player.h
 CMakeFiles/Blackjack.dir/Player.cpp.o: \
  ../Card.h \
  ../Deck.h \
@@ -34,5 +38,6 @@ CMakeFiles/Blackjack.dir/main.cpp.o: \
  ../Dealer.h \
  ../Deck.h \
  ../Game.h \
+ ../HumanPlayer.h \
  ../Player.h \
  ../main.cpp
