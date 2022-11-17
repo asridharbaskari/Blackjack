@@ -4,13 +4,35 @@
 CMakeFiles/Blackjack.dir/Card.cpp.o: \
  ../Card.cpp \
  ../Card.h
+CMakeFiles/Blackjack.dir/Dealer.cpp.o: \
+ ../Card.h \
+ ../Dealer.cpp \
+ ../Dealer.h \
+ ../Deck.h \
+ ../Player.h
 CMakeFiles/Blackjack.dir/Deck.cpp.o: \
  ../Card.h \
  ../Deck.cpp \
  ../Deck.h
 CMakeFiles/Blackjack.dir/Game.cpp.o: \
+ ../Card.h \
+ ../Dealer.h \
+ ../Deck.h \
  ../Game.cpp \
- ../Game.h
-CMakeFiles/Blackjack.dir/main.cpp.o: \
  ../Game.h \
+ ../Player.h
+CMakeFiles/Blackjack.dir/HumanPlayer.cpp.o: \
+ ../HumanPlayer.cpp \
+ ../HumanPlayer.h
+CMakeFiles/Blackjack.dir/Player.cpp.o: \
+ ../Card.h \
+ ../Deck.h \
+ ../Player.cpp \
+ ../Player.h
+CMakeFiles/Blackjack.dir/main.cpp.o: \
+ ../Card.h \
+ ../Dealer.h \
+ ../Deck.h \
+ ../Game.h \
+ ../Player.h \
  ../main.cpp

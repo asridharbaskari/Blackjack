@@ -4,7 +4,7 @@ Classes we might want to make
 
 1. Deck class
 * encapsulates a deck of 52 Card Objects
-* deck.shuffle()
+* deck.shuffle_cards()
 
 Blackjack procedures & subroutines
 
